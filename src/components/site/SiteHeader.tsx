@@ -30,7 +30,7 @@ export function SiteHeader() {
             <Link
               key={l.to}
               to={l.to}
-              activeOptions={{ exact: true }}
+              activeOptions={{ exact: true, includeSearch: false }}
               className="font-display text-2xl tracking-wide underline-offset-8 hover:underline data-[status=active]:text-primary data-[status=active]:underline"
             >
               {l.label}
