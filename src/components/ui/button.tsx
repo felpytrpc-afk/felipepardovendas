@@ -16,12 +16,21 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        brutal:
+          "rounded-none border-[3px] border-ink bg-primary text-primary-foreground font-display text-xl tracking-wide shadow-brutal transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg active:translate-x-0 active:translate-y-0 active:shadow-brutal-sm",
+        brutalPop:
+          "rounded-none border-[3px] border-ink bg-pop text-pop-foreground font-display text-xl tracking-wide shadow-brutal transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-brutal-lg active:translate-x-0 active:translate-y-0 active:shadow-brutal-sm",
+        brutalInk:
+          "rounded-none border-[3px] border-ink bg-ink text-ink-foreground font-display text-xl tracking-wide shadow-brutal transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5 hover:bg-primary hover:text-primary-foreground",
+        brutalOutline:
+          "rounded-none border-[3px] border-ink bg-background text-foreground font-display text-xl tracking-wide transition-colors hover:bg-pop",
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
+        xl: "h-14 px-8",
       },
     },
     defaultVariants: {
