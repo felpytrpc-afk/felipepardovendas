@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Store info, product catalog and WhatsApp link helpers live in `src/data/loja.ts`; pages read from it so contact details change in one place.
+- Shared header/footer wrap `<Outlet />` in `src/routes/__root.tsx`; each page is its own route file with its own `head()`.
