@@ -1,7 +1,5 @@
 # Felipepardovendas
 
-quero que crie um site sobre a loja felipe pardo vendas
-
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
